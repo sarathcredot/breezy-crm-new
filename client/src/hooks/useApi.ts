@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 
 // API base configuration
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'https://server-api-breezy.onrender.com',
+  baseURL: process.env.REACT_APP_API_URL || 'https://server-api-breezy.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
